@@ -1,0 +1,42 @@
+/* reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+    scroll-behavior: smooth;
+    font-family: 'Kanit', sans-serif;
+}
+
+body {
+    padding-top: 60px;
+}
+
+.bg-banner-gradient {
+    background: rgb(255,255,255);
+    background: linear-gradient(0deg, rgba(255,255,255,1) 0%, rgba(25,135,84,1) 100%);
+    outline: 1px solid red;
+}
+
+.width-banner {
+    width: 50%;
+}
+
+.shadow {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3); /* drop-shadow */
+}
+
+.text-banner-cus {
+    text-align: start;
+}
+
+@media (max-width: 991.5px) {
+    .width-banner {
+        width: 100%;
+    }
+    
+    .text-banner-cus {
+        text-align: center;
+    }
+}
